@@ -1,0 +1,20 @@
+{
+  "program": "usdt_wrapper_perps_v1.aleo",
+  "version": "0.0.0",
+  "description": "usdt token wrapper for usdt token",
+  "license": "MIT",
+  "dependencies": [
+    {
+      "name": "pool_perps_v1.aleo",
+      "location": "local",
+      "network": null,
+      "path": "../../pool"
+    }, 
+    {
+      "name": "usdt_perps_v1.aleo",
+      "location": "local",
+      "network": null,
+      "path": "../../arc20_tokens/usdt"
+    }
+  ]
+}

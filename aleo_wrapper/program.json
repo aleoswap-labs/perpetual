@@ -1,0 +1,20 @@
+{
+    "program": "aleo_wrapper_perps_v1.aleo",
+    "version": "0.0.0",
+    "description": "wrapped aleo token for perpetual protocol",
+    "license": "MIT",
+    "dependencies": [
+        {
+            "name": "credits.aleo",
+            "location": "network",
+            "network": "testnet3",
+            "path": null
+        },
+        {
+            "name": "pool_perps_v1.aleo",
+            "location": "local",
+            "network": null,
+            "path": "../pool"
+        }
+    ]
+}

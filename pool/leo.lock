@@ -1,0 +1,6 @@
+[[package]]
+name = "oracle_perps_v1.aleo"
+location = "local"
+path = "/../../../../pool/../oracle"
+checksum = "bb09a4d04572b456b9454dac2b031d6f440f58ba282556041ae33871cbf5ac6b"
+dependencies = []

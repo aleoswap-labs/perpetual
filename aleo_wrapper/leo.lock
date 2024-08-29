@@ -1,0 +1,20 @@
+[[package]]
+name = "credits.aleo"
+network = "testnet3"
+location = "network"
+checksum = "2ac86d83bca4fbf2c021660875ea1e5b4e65c7a192d9bc020ab02a0f32c86f0d"
+dependencies = []
+
+[[package]]
+name = "oracle_perps_v1.aleo"
+location = "local"
+path = "/../../../../aleo_wrapper/../pool/../oracle"
+checksum = "bb09a4d04572b456b9454dac2b031d6f440f58ba282556041ae33871cbf5ac6b"
+dependencies = []
+
+[[package]]
+name = "pool_perps_v1.aleo"
+location = "local"
+path = "/../../../../aleo_wrapper/../pool"
+checksum = "739b11b12028aefb29022cd2a8636ca45d7f96c401c3aac135948721cb32ae79"
+dependencies = ["oracle_perps_v1.aleo"]

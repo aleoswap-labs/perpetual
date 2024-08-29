@@ -1,0 +1,20 @@
+[[package]]
+name = "oracle_perps_v1.aleo"
+location = "local"
+path = "/../../../../arc20_token_wrappers/usdc_wrapper/../../pool/../oracle"
+checksum = "bb09a4d04572b456b9454dac2b031d6f440f58ba282556041ae33871cbf5ac6b"
+dependencies = []
+
+[[package]]
+name = "pool_perps_v1.aleo"
+location = "local"
+path = "/../../../../arc20_token_wrappers/usdc_wrapper/../../pool"
+checksum = "739b11b12028aefb29022cd2a8636ca45d7f96c401c3aac135948721cb32ae79"
+dependencies = ["oracle_perps_v1.aleo"]
+
+[[package]]
+name = "usdc_perps_v1.aleo"
+location = "local"
+path = "/../../../../arc20_token_wrappers/usdc_wrapper/../../arc20_tokens/usdc"
+checksum = "db952033da568458cba80f434b01d4f3e23db3a31907636abc22eb431dc142d4"
+dependencies = []

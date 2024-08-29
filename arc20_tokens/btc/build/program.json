@@ -1,0 +1,6 @@
+{
+  "program": "btc_perps_v1.aleo",
+  "version": "0.0.0",
+  "description": "btc token for aleoperpetual protocol",
+  "license": "MIT"
+}

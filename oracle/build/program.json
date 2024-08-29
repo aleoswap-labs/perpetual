@@ -1,0 +1,7 @@
+{
+    "program": "oracle_perps_v1.aleo",
+    "version": "0.0.0",
+    "description": "price feed oracle for aleo perpetual protocol",
+    "license": "MIT",
+    "dependencies": []
+}
